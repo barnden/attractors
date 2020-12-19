@@ -1,6 +1,8 @@
 # attractors
 ## Quadratic Strange Attractor
-Download `index.html` and open in browser
+### Compiling on Windows
+Inside WSL2 install emscripten sdk, on Windows install minify and terser globally
+Run `make all`
 
 ## Symmetric Icon Attractor
 ### Using on Windows

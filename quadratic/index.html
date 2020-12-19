@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=996px, initial-scale=1.0">
+    <title>Quadratic Strange Attractor</title>
+
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="display" width="500px" height="500px"></canvas>
+    </div>
+    <div id="equation">
+        <div id="name">Quadratic Strange Attractor</div>
+        <div id="desc"></div>
+        <div>
+            x<sub>n+1</sub> = a<sub>0</sub> + a<sub>1</sub>x<sub>n</sub> + a<sub>2</sub>x<span><sup>2</sup><sub>n</sub></span> + a<sub>3</sub>x<sub>n</sub>y<sub>n</sub> + a<sub>4</sub>y<sub>n</sub> + a<sub>5</sub>y<span><sup>2</sup><sub>n</sub></span>
+        </div>
+        <div>
+            y<sub>n+1</sub> = a<sub>6</sub> + a<sub>7</sub>x<sub>n</sub> + a<sub>8</sub>x<span><sup>2</sup><sub>n</sub></span> + a<sub>9</sub>x<sub>n</sub>y<sub>n</sub> + a<sub>10</sub>y<sub>n</sub> + a<sub>11</sub>y<span><sup>2</sup><sub>n</sub></span>
+        </div>
+    </div>
+
+    <script src="assets/js/attractor.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

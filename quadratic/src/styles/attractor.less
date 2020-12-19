@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+        * { box-sizing: border-box }
+
+        body, html {
+            padding: 0;
+            margin: 0;
+
+            background: #0E0E17;
+        }
+
+        #equation {
+            position: fixed;
+
+            bottom: 50%;
+            margin: -50% 0 0 5rem;
+            padding: 0 1rem .5rem;
+
+            color: #FFF;
+            font-family: 'Courier Prime', monospace;
+            font-size: 1.25rem;
+
+            line-height: 1em;
+
+            background: #FFFFFF7F;
+        }
+
+        sub, sup { font-size: .67em; }
+
+        #equation span { display: inline-block; }
+        #equation span sub,
+        #equation span sup {
+            position: relative;
+            display: block;
+        }
+
+        #equation #name {
+            position: relative;
+
+            padding-top: 1em;
+            line-height: 1.2em;
+
+            font-size: 1.35em;
+            text-align: center;
+
+        }
+
+        #equation #desc {
+            text-align: center;
+        }
+
+        #equation span sub { top: 0.3em; }
+        #equation span sup { top: 0.7em; }
+
+        #display {
+            min-width: 100%;
+            min-height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            image-rendering: optimizeSpeed;
+        }
